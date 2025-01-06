@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- lien css -->
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="stylesheet" href="./Css/connexion.css">
+
+    <!-- titre de la page -->
+    <title>ARKA_engineering</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- titre de la page connexion -->
+        <div class="titre">
+            <h1>ARKA Engineering</h1>
+        </div>
+
+        <!-- formulaire -->
+        <div class="containerFormConnexion">
+            <form action="./Php/connexion.php" method="POST">
+
+                <input type="email" id="email" placeholder="Email..." name="email" required>
+                <input type="password" name="password" id="password" placeholder="Mot de passe..." required>
+
+                <div class="row">
+                    <p><a href="">Mot de passe oublié ?</a></p>
+                    <p><a href="./Pages/user.html">Créez un nouveau user</a></p>
+                </div>
+
+                <!-- bouton connexion -->
+                <input type="submit" value="Connexion">
+                <!-- <button type="submit">Connexion</button> -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

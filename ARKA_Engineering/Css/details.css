@@ -1,0 +1,117 @@
+body {
+    display: block;
+  }
+  .nav {
+    background-color: #4a4e4f;
+    max-width: 2000px;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 2px;
+  }
+  .nav ul li {
+    padding: 20px 20px;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+  }
+  .nav ul li:hover {
+    background: green;
+    box-shadow: inset 0px 2px 16px 0px #000;
+  }
+  .nav ul li:last-child:hover{
+    background: none;
+    cursor: default;
+    box-shadow: none;
+  }
+  .nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .logo {
+    background: green;
+    box-shadow: inset 0px 2px 16px 0px #000;
+  }
+  
+  .details-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 20px 0;
+    gap: 5px;
+  }
+  .details .table{
+    width: 60%;
+  }
+  .details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .details th{
+    width: 35%;
+  }
+  .details td{
+    width: 65%;
+  }
+  .details th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-weight: 100;
+    font-size: 17px;
+  }
+  .details .bold, td.bold{
+    font-weight: bold;
+  }
+  .details th.color, td.color{
+    background: #4a4e4f3d;
+  }
+  
+  .details input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4a4e4f;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+    margin: 0 auto;
+  }
+  .details [type="submit"]:hover {
+    box-shadow: inset 0px 2px 16px 0px gray;
+  }
+
+  .details .profil{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .details .img{
+    width: 300px;
+    height: 300px;
+    box-shadow: inset 0px 2px 16px 0px gray;
+    margin: 0 0 20px;
+  }
+  .details .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1000px;
+  }
+  .details .moyenne{
+    border-radius: 5px;
+    background-color: #4a4e4f;
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    padding: 9px;
+  }
+  

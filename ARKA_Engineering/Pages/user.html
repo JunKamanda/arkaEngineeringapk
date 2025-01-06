@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- lien css -->
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/user.css">
+
+    <!-- titre de la page -->
+    <title>Formulaire user</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- titre de la page connexion -->
+        <div class="titre">
+            <h1>Formulaire user</h1>
+        </div>
+
+        <!-- formulaire -->
+        <div class="containerFormUser">
+            <form action="../Php/formulaire.php" method="POST">
+
+                <div class="inputsContainer">
+                    <!-- coté gauche -->
+                    <div class="leftForm">
+                        <div class="inputs">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom..." autocomplete="none" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="postnom">Postnom</label>
+                            <input type="text" id="postnom" name="postnom" placeholder="Postnom..." autocomplete="none">
+                        </div>
+                        <div class="inputs">
+                            <label for="adresse">Adresse</label>
+                            <input type="text" id="adresse" name="adresse" placeholder="Adresse..." autocomplete="none">
+                        </div>
+                        <div class="inputs">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email..." autocomplete="none" required>
+                        </div>
+                    </div>
+                    <!-- Coté droite -->
+                    <div class="rightForm">
+                        <div class="inputs">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom..." autocomplete="none" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="telephone">Télephone</label>
+                            <input type="text" id="telephone" name="telephone" placeholder="Télephone..." autocomplete="none">
+                        </div>
+                        <div class="inputs">
+                            <label for="date_naissance">Date de naissance</label>
+                            <input type="text" id="date_naissance" name="date_naissance" placeholder="Date de naissance..." autocomplete="none">
+                        </div>
+                        <div class="inputs">
+                            <label for="mot_de_passe">Mot de passe</label>
+                            <input type="password" id="mot_de_passe" name="password" placeholder="Mot de passe..." required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- bouton enregistrez -->
+                <input type="submit" value="Enregistrez">
+                <!-- <button type="submit">Connexion</button> -->
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

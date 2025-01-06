@@ -1,0 +1,9 @@
+ <?php if(isset($_GET['supprimer_id'])){
+                                    $id=$_GET['supprimer_id'];
+                                    $newStatut='inactif';
+                                    $sql="UPDATE newusers SET statut=:statut WHERE id=:id";
+                                    $stmt=$pdo->prepare($sql);
+                                    $stmt->bindParam('statut',$newStatut);
+                                    $stmt->bindParam('id',$id);
+                                    $stmt->execute();}
+                                ?>

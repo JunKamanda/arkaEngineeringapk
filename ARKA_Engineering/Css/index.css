@@ -1,0 +1,82 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.direction{
+  padding: 12px;
+  background: green;
+  box-shadow: inset 0px 2px 16px 0px black;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.container {
+  margin: 40px auto 40px;
+  max-width: 900px;
+  height: auto;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 3px 2px grey;
+}
+.titre {
+  background-color: #4a4e4f;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1px 20px;
+}
+
+  /* result */
+  table, .reseach{
+    margin: 20px auto;
+    width: 98%;
+    border:1px solid white;
+  }
+  .save{
+    background: #4a4e4f;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  tr td{
+    font-size: 14px;
+  }
+  .result_btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+  }
+  .result_btn input{
+    border-radius: 4px;
+    margin: 0;
+  }
+
+.result_btn .green, .statut .green{
+  background: green;
+  box-shadow: inset 0px 2px 16px 0px black;
+}
+.result_btn .red, .statut .red{
+  background: red;
+  box-shadow: inset 0px 2px 16px 0px black;
+}
+.details, .notes {
+  margin: 30px 40px;
+  box-shadow: inset 0px 2px 2px 0px black;
+}

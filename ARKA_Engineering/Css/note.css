@@ -1,0 +1,91 @@
+.note{
+  margin-top: 40px;
+}
+.notes .reseach {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: none;
+}
+.notes .input_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.notes .input_search input[type="text"] {
+  width: 50%;
+}
+.notes .input_search:last-child {
+  width: 20%;
+}
+.notes .input_search input[type="submit"] {
+  width: 100%;
+}
+.notes input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  transition: ease-in-out 0.4s;
+}
+.notes .title th{
+  font-weight: 100;
+  padding: 10px;
+  background: #4a4e4f;
+  color: #fff;
+}
+.notes table{
+  width: 98%;
+}
+.notes tbody tr td{
+  text-align: center;
+}
+.notes td{
+  padding: 0;
+}
+
+.notes .result_btn input {
+  width: 98%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a4e4f;
+  color: white;
+  cursor: pointer;
+  display: block;
+  transition: ease-in-out 0.4s;
+}
+.notes input.green,
+.notes input.red {
+  width: 98%;
+  margin: 2px;
+}
+.notes #invisible td input{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.notes input[type="submit"] {
+  background: #4a4e4f;
+}
+.notes input[type="submit"]:hover {
+  box-shadow: inset 0px 2px 16px 0px gray;
+  cursor: pointer;
+}
+.notes input.maj{
+  width: 98%;
+  margin: 0 auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.notes .result_btn .green{
+  background: green;
+  box-shadow: inset 0px 2px 16px 0px black;
+}
+.notes .result_btn .red{
+  background: red;
+  box-shadow: inset 0px 2px 16px 0px black;
+}

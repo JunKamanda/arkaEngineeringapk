@@ -1,0 +1,93 @@
+body {
+  display: block;
+}
+.nav {
+  background-color: #4a4e4f;
+  max-width: 2000px;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav ul li {
+  padding: 20px 20px;
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background: green;
+  box-shadow: inset 0px 2px 16px 0px #000;
+}
+.nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+.logo {
+  background: green;
+  box-shadow: inset 0px 2px 16px 0px #000;
+}
+.nav ul li.active{
+    box-shadow: inset 0px 2px 16px 0px #000;
+}
+
+.arrayWrapper {
+  border: 1px solid green;
+  /* margin: 20px 10px 70px; */
+}
+/* div#arrayWrapper {
+  margin: 20px 10px 70px;
+} */
+
+.reseach {
+  border: none;
+}
+.reseach input {
+  padding: 8px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.statut button,
+.result_btn button {
+  width: 98%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a4e4f;
+  color: white;
+  cursor: pointer;
+  display: block;
+  transition: ease-in-out 0.4s;
+}
+.grey{
+    background: rgb(170, 170, 170);
+}
+
+.numbers {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numbers ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.numbers ul li{
+    background: gray;
+    transition: ease-in-out 0.4s;
+}
+.numbers ul li:hover{
+    background: #2e2e2e;
+}
+.numbers ul li.active{
+    background: #2e2e2e;
+}
+.numbers ul li a{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
